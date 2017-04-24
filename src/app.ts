@@ -8,7 +8,7 @@ import { ALL_TODOS, ACTIVE_TODOS, COMPLETED_TODOS } from './todo/constants';
 interface IPageCtx extends b.IBobrilCtx {
     counter: number;
 }
-
+// update feature on default
 b.asset('node_modules/todomvc-app-css/index.css');
 
 f.bootstrap(s.createDefaultApplicationState(), (message, params) => { });
