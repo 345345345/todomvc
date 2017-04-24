@@ -9,6 +9,7 @@ interface IPageCtx extends b.IBobrilCtx {
     counter: number;
 }
 // update feature on default
+// update feature1 on default
 b.asset('node_modules/todomvc-app-css/index.css');
 
 f.bootstrap(s.createDefaultApplicationState(), (message, params) => { });
